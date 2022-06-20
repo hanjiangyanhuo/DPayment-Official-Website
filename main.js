@@ -95,7 +95,7 @@ var changeNavText = function() {
     document.getElementsByClassName('nav_homePage')[0].innerHTML = "主页"
     document.getElementsByClassName('nav_language')[0].innerHTML = "语言"
   }else{
-    document.getElementsByClassName('nav_homePage')[0].innerHTML = "HomePage"
+    document.getElementsByClassName('nav_homePage')[0].innerHTML = "Home"
     document.getElementsByClassName('nav_language')[0].innerHTML = "Language"
   }
 }
