@@ -57,10 +57,11 @@ window.onload=function() {
       navChange("nav_language_zh active", "nav_homePage", "nav_language_en")
     }else if(e.newURL.indexOf('/#/en') > 0){
       navChange("nav_language_zh", "nav_homePage", "nav_language_en active")
-    }else if(e.newURL.slice(e.newURL.length -3 ,e.newURL.length) === '/#/'){
-      navChange("nav_language_zh", "nav_homePage active", "nav_language_en")
     }else{
       navChange("nav_language_zh", "nav_homePage", "nav_language_en")
+    }
+    if(e.newURL.slice(e.newURL.length -3 ,e.newURL.length) === '/#/' || e.newURL.slice(e.newURL.length -3 ,e.newURL.length) === '/en' || e.newURL.slice(e.newURL.length -6 ,e.newURL.length) === '/zh-CN'){
+      navChange("nav_language_zh", "nav_homePage active", "nav_language_en")
     }
     changeNavText()
   }
