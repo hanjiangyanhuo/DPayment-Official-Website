@@ -1,0 +1,2 @@
+- [Get Start](/en/getStart)
+- [WhitePaper](/en/WhitePaper)
