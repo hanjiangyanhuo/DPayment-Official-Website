@@ -1,4 +1,4 @@
-![logo](wud_logo.png)
+![logo](logo.png)
 
 # **Payment Protocol**
 
