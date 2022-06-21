@@ -4,9 +4,9 @@
     --content-max-width: 150em;
 }
 
-.cover:before {
+/* .cover:before {
     background-color: #28c76f;
-}
+} */
 
 .markdown-section {
     max-width: 95%;
