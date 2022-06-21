@@ -1,7 +1,7 @@
 window.$docsify = {
   name: 'Payment Protocol',
   logo: '/wud_logo_500.png',
-  repo: 'fmartinou/whats-up-docker',
+  repo: 'hanjiangyanhuo/DPayment-Official-Website',
   coverpage: {
     '/': 'en/_coverpage.md',
     '/zh-CN': 'zh-CN/_coverpage.md',
