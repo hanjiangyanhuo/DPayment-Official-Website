@@ -1,6 +1,6 @@
 window.$docsify = {
   name: 'Payment Protocol',
-  logo: '/wud_logo_500.png',
+  logo: '/Logo-01.png',
   repo: 'hanjiangyanhuo/DPayment-Official-Website',
   coverpage: {
     '/': 'en/_coverpage.md',
@@ -65,6 +65,7 @@ window.onload=function() {
     }
     changeNavText()
   }
+  document.getElementsByClassName('app-nav')[0].style.display = "block"
 }
 
 var navChange = function(nav_language_zh, nav_homePage, nav_language_en){

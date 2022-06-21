@@ -25,3 +25,7 @@
     color: #7367f0!important;
     cursor: pointer;
 }
+
+.cover-main p img {
+    width: 260px;
+}
