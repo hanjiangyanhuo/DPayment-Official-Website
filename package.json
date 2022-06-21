@@ -1,13 +1,13 @@
 {
-  "name": "wud-doc",
+  "name": "dayment",
   "version": "1.0.0",
-  "description": "What'up Docker? the doc",
+  "description": "Payment Protocol",
   "main": "index.js",
   "scripts": {
     "doc": "docsify serve"
   },
-  "author": "fmartinou",
-  "repository": "fmartinou/whats-up-docker",
+  "author": "hanjiangyanhuo",
+  "repository": "hanjiangyanhuo/DPayment-Official-Website",
   "license": "MIT",
   "devDependencies": {
     "docsify-cli": "4.4.3"

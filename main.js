@@ -1,6 +1,6 @@
 window.$docsify = {
   name: 'Payment Protocol',
-  logo: '/Logo-01.png',
+  logo: '/Logo.png',
   repo: 'hanjiangyanhuo/DPayment-Official-Website',
   coverpage: {
     '/': 'en/_coverpage.md',
@@ -9,7 +9,7 @@ window.$docsify = {
   },
   onlyCover: true,
   loadSidebar: 'sidebar.md',
-  fallbackLanguages: ['zh-CN','en'],
+  fallbackLanguages: ['en','zh-CN'],
   maxLevel   : 2,
   subMaxLevel: 2,
   auto2top: true,
